@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <!-- Original illustration created for Butterfield Bakery website project -->
+  <rect width="600" height="300" fill="#f4e3c1"/>
+  <ellipse cx="150" cy="200" rx="90" ry="45" fill="#c98a4b"/>
+  <path d="M100 200 q50 -60 100 0" fill="none" stroke="#7a4a24" stroke-width="4"/>
+  <path d="M115 200 q35 -40 70 0" fill="none" stroke="#7a4a24" stroke-width="4"/>
+  <ellipse cx="380" cy="210" rx="70" ry="35" fill="#8a5a2b"/>
+  <ellipse cx="470" cy="220" rx="55" ry="28" fill="#c98a4b"/>
+  <circle cx="470" cy="185" r="20" fill="#e6c27a"/>
+  <text x="300" y="60" font-family="Georgia, serif" font-size="30" fill="#6b3e26" text-anchor="middle" font-weight="bold">Freshly Baked, Every Day</text>
+</svg>

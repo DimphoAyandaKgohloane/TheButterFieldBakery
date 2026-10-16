@@ -1,0 +1,140 @@
+/* =========================================================
+   Butterfield Bakery - style.css
+   ========================================================= */
+
+/* Basic reset so the unstyled HTML is still readable while
+   the site is only at the "foundation" stage */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a2b1f;
+  line-height: 1.5;
+}
+
+header, nav, main, footer {
+  display: block;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6b3e26;
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* =========================================================
+   JavaScript features
+   Simple styles for things the JavaScript adds. 
+   ========================================================= */
+
+/* Elements hidden by JavaScript (e.g. filtered-out products) */
+[hidden] {
+  display: none !important;
+}
+
+/* Current page link in the menu */
+nav a.active {
+  border-bottom: 3px solid #6b3e26;
+  padding-bottom: 0.2rem;
+}
+
+/* "Open now" / "Closed now" message */
+.open-status {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+.open-status.open {
+  background: #e3f4e8;
+  color: #1e6b3a;
+}
+.open-status.closed {
+  background: #fbe9e7;
+  color: #9a2a1a;
+}
+.open-status:empty {
+  display: none;
+}
+
+/* Product search and filter box */
+.product-tools {
+  background: #faf3ea;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.product-tools p {
+  margin: 0 0 0.75rem;
+}
+
+/* Form messages and validation */
+.error-message {
+  display: block;
+  color: #b00020;
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+input.invalid,
+textarea.invalid,
+select.invalid {
+  border: 2px solid #b00020;
+  background: #fdecea;
+}
+input.valid,
+textarea.valid {
+  border: 2px solid #1e6b3a;
+}
+.char-count {
+  display: block;
+  color: #6b5a4b;
+}
+.form-status {
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.form-status.success {
+  background: #e3f4e8;
+  color: #1e6b3a;
+  border: 1px solid #1e6b3a;
+}
+.form-status.error {
+  background: #fdecea;
+  color: #b00020;
+  border: 1px solid #b00020;
+}

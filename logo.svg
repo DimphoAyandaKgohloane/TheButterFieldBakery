@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Original logo created for Butterfield Bakery website project -->
+  <rect width="200" height="60" fill="none"/>
+  <circle cx="30" cy="30" r="22" fill="#c98a4b"/>
+  <path d="M18 34 q12 -18 24 0 q-12 10 -24 0 Z" fill="#f4e3c1"/>
+  <text x="62" y="27" font-family="Georgia, serif" font-size="20" fill="#6b3e26" font-weight="bold">Butterfield</text>
+  <text x="62" y="46" font-family="Georgia, serif" font-size="16" fill="#6b3e26">Bakery</text>
+</svg>
