@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 /* =========================================================
    Butterfield Bakery - style.css
    ========================================================= */
 
 /* Basic reset so the unstyled HTML is still readable while
    the site is only at the "foundation" stage */
+=======
+
+>>>>>>> 9abe4277f08349214281e351ff326714a25aebae
 * {
   box-sizing: border-box;
 }
@@ -53,6 +57,7 @@ th, td {
   padding: 0.5rem;
   text-align: left;
 }
+<<<<<<< HEAD
 
 /* =========================================================
    JavaScript features
@@ -138,3 +143,5 @@ textarea.valid {
   color: #b00020;
   border: 1px solid #b00020;
 }
+=======
+>>>>>>> 9abe4277f08349214281e351ff326714a25aebae
