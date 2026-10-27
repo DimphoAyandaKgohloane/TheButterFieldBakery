@@ -40,8 +40,13 @@ Part 1 delivers the project proposal, researched content, and the initial HTML s
 Part 2 Details
 Part 2 delivers the Css, which is addded to the html, the html code is updated accordingly, compatibility and responsiveness is added to the overall website, and screen size compatibility is tested
 
+Part 3 Details
+Part 3 delivers the final deployment of the website. JavaScript is added
+
 References
 
 Pretoria.co.za (2026) Delightful Butterfield Bakery Small Street Mall - Pretoria. Available at: https://pretoria.co.za/place/butterfield-bakery-small-street-mall-pty-ltd (Accessed: 4 August 2026).
 
 W3Schools, “CSS Tutorial,” W3Schools. Available: https://www.w3schools.com/css/. (Accessed: 25 September 2026).
+
+W3Schools, “JavaScript Tutorial,” W3Schools. Available: https://www.w3schools.com/js/default.asp (Accessed: 25 October 2026).
